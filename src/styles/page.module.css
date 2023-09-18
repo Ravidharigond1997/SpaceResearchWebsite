@@ -1,0 +1,39 @@
+
+.rockeLanch{
+  width: 250px;
+  height: 300px;
+  padding:10px;
+  animation: host 2s linear infinite;
+}
+
+@keyframes host{
+  100%{
+    transform: translatey(-2700px);
+  }
+  50%{
+    transform: translatey(-300px);
+  }
+  0%{
+    transform: translatey(1px);
+  }
+}
+
+.rocketNotLanch{
+  width: 250px;
+  height: 300px;
+  padding:10px;
+}
+
+.btn1 {
+  padding: 12px 18px;
+  font-weight: 20px;
+  background-color: black;
+  color:white;
+  font-size: 20px;
+  border-radius: 0.5rem;
+  margin: 10px 20px;
+}
+
+.btn1:active  {
+  background-color: #988E8C ;
+}
