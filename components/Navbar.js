@@ -20,10 +20,10 @@ function Navbar() {
           <Link href={"/"}>
             <li>Home</li>
           </Link>
-          <Link href={"/"}>
-            <li>Achives</li>
+          <Link href={"/achivements"}>
+            <li>Achivements</li>
           </Link>
-          <Link href={"/"}>
+          <Link href={"/about"}>
             <li>About</li>
           </Link>
           <Link href={"/"}>

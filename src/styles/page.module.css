@@ -1,39 +1,133 @@
-
-.rockeLanch{
-  width: 250px;
-  height: 300px;
-  padding:10px;
-  animation: host 2s linear infinite;
+.main h1{
+   color:white;
+   font-size:3rem;
+   margin:2rem;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 500px;
+   text-align: center;
 }
 
-@keyframes host{
-  100%{
-    transform: translatey(-2700px);
-  }
-  50%{
-    transform: translatey(-300px);
-  }
-  0%{
-    transform: translatey(1px);
-  }
-}
-
-.rocketNotLanch{
-  width: 250px;
-  height: 300px;
-  padding:10px;
-}
-
-.btn1 {
-  padding: 12px 18px;
-  font-weight: 20px;
-  background-color: black;
+.mainContent {
+  /* Add shadows to create the "card" effect */
+  transition: 0.3s;
+  display: inline-block;
+  position: relative;
+  left:200px;
+  align-items: center;
   color:white;
-  font-size: 20px;
-  border-radius: 0.5rem;
-  margin: 10px 20px;
+  width:35%;
+  margin: 0.5rem;
 }
 
-.btn1:active  {
-  background-color: #988E8C ;
+.mainContent h2{
+  font-size: 2rem;
+  padding: 0.5rem 0.5rem;
+
+}
+
+.mainContent p{
+  font-size: 0.5;
+  padding: 0.5rem 1rem;
+}
+
+.earth {
+  align-items: center;
+  cursor: pointer;
+  animation: rotate 2s infinite ease-in-out;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+ }
+ to {
+    transform: rotate(360deg);
+ }
+}
+@media screen and (max-width: 600px) {
+  .mainContent {
+    /* Add shadows to create the "card" effect */
+    transition: 0.3s;
+    display: inline-block;
+    position: relative;
+    left:100px;
+    align-items: center;
+    color:white;
+    width:35%;
+    margin: 0.5rem;
+  }
+  .container h2{
+    padding:0.3rem 0;
+    text-align: center;
+  }
+  .container p{
+    font-size: 0.5;
+    padding: 0.5rem 1rem;
+    text-align: center;
+  }
+}
+
+.btn{
+  padding: 0.5rem 0.5rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: #6b8d2c;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  margin:1rem;
+}
+
+/* Section2 About scientests */
+.heading h1{
+  text-align: center;
+  color:white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+.mySwiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiperslide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: auto;
+}
+
+.swiperslide img {
+  display: inline-block;
+  width: 100%;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  background-color: white;
+  transition: 0.3s;
+  animation: ease-in;
+  cursor: pointer;
+}
+.card:hover{
+  transform: scale(1.1);
+  
+}
+.card img{
+  height: 50%;
+}
+
+.content {
+  padding: 2px 16px;
+}
+
+.content h2{
+    color:black
 }

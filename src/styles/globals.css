@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
+
 body, button, input {
   font-family: 'Josefin Sans', sans-serif;
 }
