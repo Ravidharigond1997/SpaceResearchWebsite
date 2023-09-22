@@ -1,0 +1,65 @@
+.container {
+  height: 100vh;
+}
+.content h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.formdata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  position: relative;
+  top: 25%;
+  color: white;
+}
+.formdata input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 25%;
+  border: 0.1rem solid #4e0eff;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  font-size: 1rem;
+}
+
+.textarea {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 25%;
+  border: 0.1rem solid #4e0eff;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+}
+
+.formdata button {
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: #997af0;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  transistion: 0.5s ease;
+}
+
+.formdata button:active {
+  scale: 1.2;
+}
+@media screen and (max-width: 600px) {
+  .formdata input {
+    width: 88%;
+  }
+  .textarea {
+    width: 88%;
+  }
+  .formdata button {
+    padding: 1rem 2rem;
+  }
+}

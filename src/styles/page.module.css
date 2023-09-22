@@ -81,6 +81,9 @@
 }
 
 /* Section2 About scientests */
+.section{
+  margin-bottom: 2.5rem;
+}
 .heading h1{
   text-align: center;
   color:white;
