@@ -1,28 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Playfair+Display:wght@700&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Playfair+Display:wght@700&display=swap");
 
 @import "swiper/css";
 @import "swiper/css/pagination";
 @import "swiper/css/navigation";
 
-
-body, button, input {
-  font-family: 'Josefin Sans', sans-serif;
+body,
+button,
+input {
+  font-family: "Josefin Sans", sans-serif;
 }
-body{
-  background-image: url("../../public/bg.jpg");
+body {
+  background-image: url("../Images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-
-

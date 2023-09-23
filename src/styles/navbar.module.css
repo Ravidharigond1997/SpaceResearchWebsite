@@ -1,51 +1,31 @@
-.navbar{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(0,0,0,0.5);
-    width: 100vw;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+}
+
+.navbarlist Link {
+  text-decoration: none;
+}
+.list {
+  color: white;
+  list-style: none;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
-    .navbar{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: black;
-        width: 100vw;
-    }  
-    .btn button{
-        padding: 0.2rem 05rem;
-        text-transform: uppercase;
-        border: none;
-        border-radius: 0.4rem;
-        background-color: #997af0;
-        font-weight: bold;
-        cursor: pointer;
-        color: white;
-        font-size: 0.5rem;
-        margin:1rem;
-        transition: all ease 0.2s;
-    }
-    .btn button:hover {
-        background-color: #4e0eff;
-      }
-      .btn button:active {
-        scale:1.2;
-      }
-    
-}
-.navbarlist{
+  .navbar {
     display: flex;
-    gap: 2rem;
-    margin: 0 2rem;
-    color:white;
-    font-size: 1.2rem;
-}
-
-.btn button{
-    padding: 0.5rem 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+  }
+  .btn button {
+    padding: 0.2rem 05rem;
     text-transform: uppercase;
     border: none;
     border-radius: 0.4rem;
@@ -53,19 +33,47 @@
     font-weight: bold;
     cursor: pointer;
     color: white;
-    font-size: 1rem;
-    margin:2rem;
+    font-size: 0.5rem;
+    margin: 1rem;
     transition: all ease 0.2s;
-}
-.btn button:hover {
+  }
+  .btn button:hover {
     background-color: #4e0eff;
   }
-  .btn1:active {
-    scale:1.2;
+  .btn button:active {
+    scale: 1.2;
   }
+}
+.navbarlist {
+  display: flex;
+  gap: 2rem;
+  margin: 0 2rem;
+  color: white;
+  font-size: 1.2rem;
+}
 
-.logo{
-    position: relative;
-    top:0.5rem;
-    margin:0 2rem
+.btn button {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: #997af0;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  margin: 2rem;
+  transition: all ease 0.2s;
+}
+.btn button:hover {
+  background-color: #4e0eff;
+}
+.btn1:active {
+  scale: 1.2;
+}
+
+.logo {
+  position: relative;
+  top: 0.5rem;
+  margin: 0 2rem;
 }
